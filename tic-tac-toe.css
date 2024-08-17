@@ -1,0 +1,235 @@
+.tic-tac-toe-child {
+  position: absolute;
+  top: 119px;
+  left: 0;
+  background-color: var(--color-darkslateblue);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1440px;
+  height: 119px;
+  display: none;
+}
+.noisy-gradients-icon3 {
+  position: absolute;
+  top: 0;
+  left: -51px;
+  width: 1517px;
+  height: 1318px;
+  object-fit: cover;
+  display: none;
+}
+.tic-tac-toe-child1,
+.tic-tac-toe-inner,
+.tic-tac-toe-item {
+  position: absolute;
+  top: -132px;
+  left: -93px;
+  width: 1625px;
+  height: 1176px;
+  opacity: 0.25;
+}
+.tic-tac-toe-child1,
+.tic-tac-toe-inner {
+  top: 1806px;
+  left: -89px;
+}
+.tic-tac-toe-child1 {
+  top: 2760px;
+  left: -111px;
+  object-fit: contain;
+}
+.tic-tac-toe-child2,
+.tic-tac-toe-child3 {
+  position: absolute;
+  top: 3700px;
+  left: -127px;
+  width: 1625px;
+  height: 1176px;
+  opacity: 0.25;
+}
+.tic-tac-toe-child3 {
+  top: 718px;
+  left: -133px;
+  width: 1663px;
+  height: 1322px;
+}
+.tic-tac-toe-child4 {
+  position: absolute;
+  top: 108px;
+  left: 0;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.75));
+  width: 1440px;
+  height: 108px;
+  opacity: 0.5;
+}
+.genre5 {
+  margin: 0;
+}
+.genre4,
+.tic-tac-toe2 {
+  position: absolute;
+  top: 166px;
+  left: 587px;
+  display: inline-block;
+  width: 89px;
+  height: 47px;
+}
+.tic-tac-toe2 {
+  top: 0;
+  left: 0;
+  width: 276.3px;
+  height: 51.3px;
+}
+.group-child23 {
+  position: absolute;
+  top: 60px;
+  left: 2px;
+  width: 217px;
+  height: 0.9px;
+  object-fit: contain;
+}
+.hill-climbing1,
+.tic-tac-toe-parent {
+  position: absolute;
+  top: 76px;
+  left: 586px;
+  width: 276.3px;
+  height: 60.9px;
+  font-size: var(--font-size-24xl-9);
+}
+.hill-climbing1 {
+  top: 211px;
+  left: 599px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-navajowhite-200);
+  display: inline-block;
+  width: 234px;
+  height: 26px;
+}
+.gameplay4,
+.overview8,
+.tic-tac-toe3 {
+  position: absolute;
+  top: 446px;
+  left: 587px;
+  display: inline-block;
+  width: 166px;
+  height: 47px;
+}
+.overview8,
+.tic-tac-toe3 {
+  top: 261px;
+  width: 143px;
+}
+.tic-tac-toe3 {
+  top: 306px;
+  left: 586px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-navajowhite-200);
+  width: 765px;
+  height: 26px;
+}
+.tic-tac-toe-child5 {
+  position: absolute;
+  top: 223px;
+  left: 588px;
+  border-radius: 50%;
+  background-color: var(--color-rosybrown);
+  width: 6px;
+  height: 6px;
+}
+.add-to-favourites2 {
+  position: absolute;
+  top: 701px;
+  left: 94px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  display: inline-block;
+  width: 181px;
+  height: 47px;
+}
+.tic-tac-toe-child6,
+.tic-tac-toe-child7 {
+  position: absolute;
+  background-color: var(--color-gray-200);
+}
+.tic-tac-toe-child6 {
+  top: 700px;
+  left: 512px;
+  border-radius: 50%;
+  width: 29px;
+  height: 29px;
+}
+.tic-tac-toe-child7 {
+  top: 525px;
+  left: 586px;
+  border-radius: var(--br-11xl);
+  width: 515px;
+  height: 478px;
+}
+.vector-icon10,
+.vector-icon9 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon10 {
+  height: 23.64%;
+  width: 23.64%;
+  top: 38.86%;
+  right: 37.5%;
+  bottom: 37.5%;
+  left: 38.86%;
+}
+.vector-container {
+  text-decoration: none;
+  position: absolute;
+  height: 3.85%;
+  width: 3.06%;
+  top: 3.85%;
+  right: 2.22%;
+  bottom: 92.31%;
+  left: 94.72%;
+  cursor: pointer;
+}
+.heart-icon1 {
+  position: absolute;
+  height: 1.22%;
+  width: 1.13%;
+  top: 61.98%;
+  right: 62.83%;
+  bottom: 36.8%;
+  left: 36.04%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.tic-tac-toe-child8 {
+  position: absolute;
+  top: 88px;
+  left: 94px;
+  border-radius: var(--br-11xl);
+  width: 447px;
+  height: 584px;
+  object-fit: cover;
+}
+.tic-tac-toe1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-200);
+  height: 1144px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-navajowhite-100);
+  font-family: var(--font-familjen-grotesk);
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your CSS and other header content here -->
+</head>
+<body>
+    <form action="/solve" method="post">
+        <textarea name="maze" rows="5" cols="5"></textarea><br>
+        <label for="end_row">Enter the end row (0-4):</label>
+        <input type="number" name="end_row" id="end_row" min="0" max="4"><br>
+        <label for="end_col">Enter the end column (0-4):</label>
+        <input type="number" name="end_col" id="end_col" min="0" max="4"><br>
+        <button type="submit">Solve Maze</button>
+    </form>
+</body>
+</html>

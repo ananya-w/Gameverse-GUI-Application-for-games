@@ -1,0 +1,212 @@
+<!-- <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./secondary.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Familjen Grotesk:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Brands:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="secondary">
+      <div class="secondary-child"></div>
+      <img
+        class="noisy-gradients-icon1"
+        alt=""
+        src="./public/noisygradients@2x.png"
+      />
+
+      <img class="secondary-item" alt="" src="./public/group-718.svg" />
+
+      <img class="secondary-inner" alt="" src="./public/group-718.svg" />
+
+      <img class="secondary-child1" alt="" src="./public/group-742@2x.png" />
+
+      <img class="secondary-child2" alt="" src="./public/group-718.svg" />
+
+      <img class="secondary-child3" alt="" src="./public/group-719.svg" />
+
+      <div class="secondary-child4"></div>
+      <b class="genre">
+        <p class="genre1">Genre</p>
+      </b>
+      <div class="rat-in-a-maze-group">
+        <b class="rat-in-a1">Rat in a Maze</b>
+        <img class="group-child21" alt="" src="./public/vector-3383.svg" />
+      </div>
+      <div class="breadth-first-search1">Breadth First Search</div>
+      <div class="enter-the-end">Enter the end row:</div>
+      <div class="enter-your-5x5">
+        Enter your 5x5 maze matrix (rows of 5 integers, 1 for path and 0 for
+        walls)
+      </div>
+      <b class="overview">
+        <p class="genre1">Overview</p>
+      </b>
+      <b class="overview">
+        <p class="genre1">Overview</p>
+      </b>
+      <div class="rat-in-a2">
+        “Rat in a Maze" is a classic puzzle game where players navigate a maze
+        as a rat, aiming to find the cheese while avoiding traps. It tests
+        spatial awareness, problem-solving, and quick decision-making skills.
+        With each level increasing in complexity, it offers an engaging
+        challenge for players of all ages.
+      </div>
+      <img
+        class="secondary-child5"
+        alt=""
+        src="./public/rectangle-138@2x.png"
+      />
+
+      <div class="secondary-child6"></div>
+      <div class="add-to-favourites">Add to Favourites :</div>
+      <div class="secondary-child7"></div>
+      <input class="rectangle-input" type="number" />
+
+      <textarea class="secondary-child8" name="matrix" id="matrix" rows="5" cols="5"></textarea>
+
+
+      <div class="enter-the-end1">Enter the end column:</div>
+      <input class="secondary-child9" name="column" type="number" />
+
+      <button class="gameplay" autofocus="{true}" id="play">
+        <p class="genre1">Gameplay</p>
+      </button>
+      <div class="secondary-child10"></div>
+      <a class="vector-parent" href="./gaming-website.html" id="groupLink">
+        <img class="vector-icon3" alt="" src="./public/vector2.svg" />
+
+        <img class="vector-icon4" alt="" src="./public/vector3.svg" />
+
+        <img class="vector-icon4" alt="" src="./public/vector4.svg" />
+      </a>
+      <button class="heart" autofocus="{true}">
+        <img class="vector-icon3" alt="" src="./public/group.svg" />
+      </button>
+      <b class="credentials">Credentials</b>
+      <button class="secondary-child11" autofocus="{true}"></button>
+      <button class="submit">Submit</button>
+    </div>
+
+    <script>
+      var groupLink = document.getElementById("groupLink");
+      if (groupLink) {
+        groupLink.addEventListener("click", function (e) {
+          window.location.href = "./gaming-website.html";
+        });
+      }
+      </script>
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./secondary.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Familjen Grotesk:wght@400;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Brands:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="secondary">
+      <form action="/solve" method="post"> <!-- Add form tag with action attribute -->
+        <div class="secondary-child"></div>
+        <img
+          class="noisy-gradients-icon1"
+          alt=""
+          src="./public/noisygradients@2x.png"
+        />
+
+        <img class="secondary-item" alt="" src="./public/group-718.svg" />
+
+        <img class="secondary-inner" alt="" src="./public/group-718.svg" />
+
+        <img class="secondary-child1" alt="" src="./public/group-742@2x.png" />
+
+        <img class="secondary-child2" alt="" src="./public/group-718.svg" />
+
+        <img class="secondary-child3" alt="" src="./public/group-719.svg" />
+
+        <div class="secondary-child4"></div>
+        <b class="genre">
+          <p class="genre1">Genre</p>
+        </b>
+        <div class="rat-in-a-maze-group">
+          <b class="rat-in-a1">Rat in a Maze</b>
+          <img class="group-child21" alt="" src="./public/vector-3383.svg" />
+        </div>
+        <div class="breadth-first-search1">Breadth First Search</div>
+        <div class="enter-the-end">Enter the end row:</div>
+        <div class="enter-your-5x5">
+          Enter your 5x5 maze matrix (rows of 5 integers, 1 for path and 0 for
+          walls)
+        </div>
+        <b class="overview">
+          <p class="genre1">Overview</p>
+        </b>
+        <b class="overview">
+          <p class="genre1">Overview</p>
+        </b>
+        <div class="rat-in-a2">
+          “Rat in a Maze" is a classic puzzle game where players navigate a maze
+          as a rat, aiming to find the cheese while avoiding traps. It tests
+          spatial awareness, problem-solving, and quick decision-making skills.
+          With each level increasing in complexity, it offers an engaging
+          challenge for players of all ages.
+        </div>
+        <img
+          class="secondary-child5"
+          alt=""
+          src="./public/rectangle-138@2x.png"
+        />
+
+        <div class="secondary-child6"></div>
+        <div class="add-to-favourites">Add to Favourites :</div>
+        <div class="secondary-child7"></div>
+        <input class="rectangle-input" type="number" />
+
+        <textarea class="secondary-child8" name="maze" id="maze" rows="5" cols="5"></textarea>
+
+        <div class="enter-the-end1">Enter the end column:</div>
+        <input class="secondary-child9" name="end_row" type="number" />
+        <input class="secondary-child10" name="end_col" type="number" /> <!-- Add input field for end column -->
+
+        <button class="gameplay" autofocus="{true}" id="play">
+          <p class="genre1">Gameplay</p>
+        </button>
+        <div class="secondary-child11"></div>
+        <button class="heart" autofocus="{true}">
+          <img class="vector-icon3" alt="" src="./public/group.svg" />
+        </button>
+        <b class="credentials">Credentials</b>
+        <button class="submit">Submit</button>
+      </form> <!-- Close form tag -->
+    </div>
+
+    <script>
+      var groupLink = document.getElementById("groupLink");
+      if (groupLink) {
+        groupLink.addEventListener("click", function (e) {
+          window.location.href = "./gaming-website.html";
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-familjen-grotesk: "Familjen Grotesk";
+  --font-font-awesome-5-brands: "Font Awesome 5 Brands";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-25xl: 44px;
+  --font-size-11xl: 30px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-24xl-9: 43.9px;
+
+  /* Colors */
+  --color-gray-100: #1d181f;
+  --color-gray-200: #14112e;
+  --color-white: #fff;
+  --color-navajowhite-100: #ffdaa2;
+  --color-navajowhite-200: rgba(255, 218, 162, 0.6);
+  --color-navajowhite-300: rgba(255, 218, 162, 0.4);
+  --color-gainsboro-100: rgba(217, 217, 217, 0.1);
+  --color-darkslateblue: #3b3576;
+  --color-black: #000;
+  --color-rosybrown: #ab8b84;
+
+  /* Border radiuses */
+  --br-1093xl-2: 1112.2px;
+  --br-11xl: 30px;
+}

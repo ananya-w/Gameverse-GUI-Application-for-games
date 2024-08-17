@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Your CSS and other header content here -->
+</head>
+<body>
+    <!-- Display the solution here, you can use Python to generate the HTML -->
+    {% for row in solution %}
+        {% for cell in row %}
+            {{ cell }}
+        {% endfor %}
+        <br>
+    {% endfor %}
+</body>
+</html>
